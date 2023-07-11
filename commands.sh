@@ -10,6 +10,9 @@ apk add automake
 apk add autoconf
 apk add gcc
 apk add neofetch
+git clone https://github.com/htop-dev/htop
+cd htop
+./autoconf.sh && ./configure && make
 vim /etc/motd
 #write whatever you would like to write: this will greet you every time you open ish
 
